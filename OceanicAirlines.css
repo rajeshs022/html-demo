@@ -1,0 +1,111 @@
+.bodyy{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header{
+    display: flex;
+    flex-direction:row;
+    font-family: sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: dotted;
+
+}
+.logo{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 65px;
+    
+}
+.ocean{
+    font-size:45px;
+    font-weight: bolder;
+    margin: 0px;
+    text-shadow: 3px 3px 5px lightskyblue;
+    color: white;
+}
+.body1{
+    display: flex;
+    background-color:lightskyblue;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-block: 200px; */
+    /* width:fit-content;  */
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+
+.ul1{
+    display:flex;
+    justify-content: space-between;
+    align-items:spa
+
+}
+
+.body2{
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.image{
+    border-radius: 15px;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    background-position: center;
+    margin: auto;
+}
+.body3{
+    display: flex;
+    flex-direction: row;
+    text-align: auto;
+}
+
+#move{
+    padding-left:130px ;
+}
+.navi a:hover{
+    padding: 10px;
+    transform: scale();
+    border-radius: 8px;
+}
+.navi a{
+    background-color: orange;
+    border-radius: 6px;
+
+    padding: 10px;
+    /* width: fit-content; */
+    /* transform:skew(); */
+
+    margin: 0;
+    text-decoration: none;
+}
+.ul1{
+    list-style-type: none;
+    /* flex-direction: row-reverse; */
+}
+
+
+/*Responsiveness - For devices screen width less than 768px
+                  - Mobile, IPAd */
+     /*             @media (max-width: 768px) {
+                    .container {
+                        flex-direction: column;
+                    }
+                
+                    nav ul {
+                        flex-direction: column;
+                    }
+                
+                    nav ul li {
+                        margin: 0.5rem 0;
+                    }
+                }
+
+*/
